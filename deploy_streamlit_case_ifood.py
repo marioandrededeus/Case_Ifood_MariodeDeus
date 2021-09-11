@@ -14,7 +14,7 @@ def main():
     
     c1, c2 = st.columns([3,1])
     c1.title('Simulador - Conversão de Vendas')
-    c2.image('logo_dh.jpeg', width=100)
+    c2.write('Teste Commit')
     with st.expander('Descrição do App',expanded=True):
         st.markdown('O objetivo principal desta ferramenta é realizar predições sobre a chance de um cliente converter em uma dada campanha de mkt...')
     
